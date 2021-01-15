@@ -2,7 +2,7 @@
 ## Downloads 
 * GitHub for Windows
 * Visual Studio Code
-	* Extentions
+	* **Extentions**
 		* Python
 		* GitLens
 		* Jupyter (optional)
