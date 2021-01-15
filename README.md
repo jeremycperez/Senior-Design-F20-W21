@@ -1,7 +1,7 @@
 # Getting started
 ## Downloads 
 * [GitHub for Windows](https://desktop.github.com/)
-* [Git](https://git-scm.com/)
+* [Git](https://git-scm.com/) *(This is not the same as GitHub)*
   * *install with default settings*
 * [Visual Studio Code](https://code.visualstudio.com/)
   * **During install, select:**
