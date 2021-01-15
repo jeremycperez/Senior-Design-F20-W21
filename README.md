@@ -14,3 +14,7 @@
 	* Python
 	* GitLens
 	* Jupyter *(optional)*
+## Still need help?
+I am willing to make a short video to show how to commit to the repository if needed.
+
+-Jeremy
