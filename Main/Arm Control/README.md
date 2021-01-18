@@ -1,1 +1,1 @@
-{\rtf1}
+### This folder will be used for scripts related to the arm during build phase of the PAT project (W21)
