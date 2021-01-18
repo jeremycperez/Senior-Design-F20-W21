@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Main"
+    "\\Main",
+    "\\Main\\Image Processing",
+    "\\Main\\Motor Control"
   ],
   "SelectedNode": "\\Main",
   "PreviewInSolutionExplorer": false
