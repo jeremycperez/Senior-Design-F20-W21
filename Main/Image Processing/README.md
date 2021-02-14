@@ -1,0 +1,1 @@
+### This folder will be used for scripts related object detection, line following, and QR code scanning arm during build phase of the PAT project (W21)

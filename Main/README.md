@@ -1,1 +1,1 @@
-# blank
+### This folder will be used to store scripts used in the build phase of the PAT project (W21)
