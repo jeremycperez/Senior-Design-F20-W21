@@ -1,1 +1,0 @@
-## Python script used to collect data for the YOLOv3 model used for object detection.
