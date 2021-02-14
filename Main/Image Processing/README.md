@@ -1,2 +1,2 @@
 ## This folder will be used for scripts related object detection, line following, and QR code scanning arm during build phase of the PAT project (W21)
- *imageCollector: Python script used to collect data for the YOLOv3 model used for object detection.
+ * imageCollector: Python script used to collect data for the YOLOv3 model used for object detection.
