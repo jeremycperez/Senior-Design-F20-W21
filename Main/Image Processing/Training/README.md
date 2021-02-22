@@ -11,7 +11,7 @@
 <p><br><p><br>
 
 ## Blacklist Nouveau
-in /ect/modprobe.d, create a .conf file (i.e. nouveau_blacklist.conf) that containes the following content:
+in /ect/modprobe.d, create a .conf file (i.e. nouveau_blacklist.conf) that contains the following content:
 * blacklist nouveau
 * options nouveau modeset=0
 <p>Then open the console and run:<br>
