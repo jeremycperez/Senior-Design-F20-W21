@@ -8,7 +8,7 @@
 # Part 3: Converting .pb to TFLite
 
 ## **<span style="color:red">Current Issues</span>**
-To be capable of running on the Coral Edge TPU, the TFLite model has to be quantized to UINT8 or INT8. It currently does not appear to quantize post-training; <span style="color:red">therefore, at this time, it will not be able to be compiled for our application at this time.</span> It appears to convert with FLOAT values. 
+To be capable of running on the Coral Edge TPU, the TFLite model has to be quantized to UINT8 or INT8. It currently does not appear to quantize post-training; <span style="color:red">therefore it will not be able to be compiled for our application at this time.</span> It appears to convert with FLOAT values. 
 
 ## Prerequisites
 * YOLOv3-tiny Frozen Graph (.pb file)
