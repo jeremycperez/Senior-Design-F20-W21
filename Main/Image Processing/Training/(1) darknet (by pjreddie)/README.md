@@ -53,7 +53,7 @@ create a password (write it down for the next step)<br>
     Answer: "b"      
     Disable Secure Boot
 
-<p><br>
+
 
 ## Install CUDA 11.2
 <p>$ <code>sudo init 3</code>
