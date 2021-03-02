@@ -6,3 +6,4 @@
 * [Part 6: Run EdgeTPU Object Detection](https://github.com/jeremycperez/Senior-Design-F20-W21/tree/master/Main/Image%20Processing/Training/(6)%20Test%20Edge-compatible%20TFlite%20Model) **<-- you are here**<br>
 
 # Part 6: Run EdgeTPU Object Detection
+## *Unavailable at this time. Work in progress.*
