@@ -26,7 +26,8 @@ Unable to get OpenCV working with Darknet and CUDA
 * Ver - 20.04
 * Install type - runfile (local)<br>
 <p>$ <code>wget https://developer.download.nvidia.com/compute/cuda/11.2.1/local_installers/cuda_11.2.1_460.32.03_linux.run</code>
-<p><br><p><br>
+
+<p><br>
 
 ## Blacklist Nouveau
 in /ect/modprobe.d, create a .conf file (i.e. nouveau_blacklist.conf) that contains the following content:
@@ -35,7 +36,8 @@ in /ect/modprobe.d, create a .conf file (i.e. nouveau_blacklist.conf) that conta
 <p>Then open the console and run:<br>
 <p>$ <code>sudo update-initramfs -u</code><br>
 $ <code>sudo reboot</code>
-<p><br><p><br>
+
+<p><br>
 
 ## Disable Secure Boot
 In the console:
@@ -45,12 +47,13 @@ create a password (write it down for the next step)<br>
 <p>$ <code>sudo reboot</code><br>
 <p>Click "Change Secure Boot state"<br>
 <p>You will have to end the character it requests in your password (index starts at 1)<br>
+
+    Example password: abcdefgh<br>
+    ENTER PASS WORD CHARACTER 2: 
+    Answer: "b"      
+    Disable Secure Boot
+
 <p><br>
-<p>Example: password: abcdefgh<br>
-<p>ENTER PASS WORD CHARACTER 2: <br>
-<p>Answer: "b"<br>      
-<p>Disable Secure Boot<br>
-<p><br><p><br>
 
 ## Install CUDA 11.2
 <p>$ <code>sudo init 3</code>
@@ -59,7 +62,8 @@ create a password (write it down for the next step)<br>
 <p>$ <code>export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}</code>
 <p>$ <code>export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</code>
 <p>$ <code>sudo init 5</code>
-<p><br><p><br>
+
+<p><br>
 
 ## Verify Installation
 <p>$ <code>cd ~</code>
@@ -89,7 +93,18 @@ Access the darknet directory, open the <code>Makefile</code>, and make the foill
 * <code>OPENCV=1</code><br>
   * *if OpenCV is installed*
 
-$ <code></code><br>
-$ <code></code><br>
-$ <code></code><br>
-$ <code></code><br>
+Move the files on this page to their repective destination (i.e. copy/paste contents of "data" to . . /darknet/data)
+## In the console:
+$ <code>cd darknet</code><br>
+$ <code>make</code><br>
+
+<p>Begin training the model:<br>
+
+$ <code>./darknet detector train data/obj.data cfg/yolov3-tiny-ver2.cfg darknet53.conv.74</code><br>
+
+The weights will be saved to . . /darknet/backup
+
+<p><br>
+<p><br>
+
+## **Next -->** [Part 2: Converting YOLO Weights to .pb](https://github.com/jeremycperez/Senior-Design-F20-W21/tree/master/Main/Image%20Processing/Training/(2)%20YOLOv3-Tiny%20to%20.pb)<br>
